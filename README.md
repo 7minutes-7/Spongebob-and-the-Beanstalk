@@ -1,5 +1,5 @@
 # 스폰지밥과 콩나물
-애니메이션 "네모바지 스폰지밥"을 배경으로 잭과 콩나물을 패러디한 게임입니다.
+애니메이션 "네모바지 스폰지밥"을 배경으로 잭과 콩나물을 패러디한 게임입니다. <
 소개영상: https://youtu.be/iZ3EmRwp-FY
 ![sponge](https://github.com/7minutes-7/Spongebob-and-the-Beanstalk/blob/master/Images/readme_title.png)<br />
 
