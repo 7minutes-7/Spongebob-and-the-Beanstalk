@@ -7,6 +7,7 @@
 ![sponge](https://github.com/7minutes-7/Spongebob-and-the-Beanstalk/blob/master/Images/game_instructions.png)<br />
 스폰지밥을 움직여 미니게임을 수행하고 콩을 하늘 높이까지 키우는 게 목표입니다. <br />
 래리,징징이,집게사장,퍼프선생님, 총 네 명과의 미니 게임에 승리하면 우물에 사용할 수 있는 "토큰"을 받게 됩니다. <br />
+자세한 방법은 소개영상 참고해주세요! <br />
 
 ## 시작장면:: 집
 ![sponge](https://github.com/7minutes-7/Spongebob-and-the-Beanstalk/blob/master/Images/readme_house.png)<br />
