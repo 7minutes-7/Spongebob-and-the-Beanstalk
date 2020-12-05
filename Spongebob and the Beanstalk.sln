@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Spongebob and the Beanstalk", "Spongebob and the Beanstalk.vcxproj", "{C2861676-881B-4FA0-AB3B-F4F09026904A}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Spongebob and the Beanstalk_Installer", "Spongebob and the Beanstalk_Installer\Spongebob and the Beanstalk_Installer.vdproj", "{93A1026E-A638-484C-95A2-332AE73E927D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,10 @@ Global
 		{C2861676-881B-4FA0-AB3B-F4F09026904A}.Release|x64.Build.0 = Release|x64
 		{C2861676-881B-4FA0-AB3B-F4F09026904A}.Release|x86.ActiveCfg = Release|Win32
 		{C2861676-881B-4FA0-AB3B-F4F09026904A}.Release|x86.Build.0 = Release|Win32
+		{93A1026E-A638-484C-95A2-332AE73E927D}.Debug|x64.ActiveCfg = Debug
+		{93A1026E-A638-484C-95A2-332AE73E927D}.Debug|x86.ActiveCfg = Debug
+		{93A1026E-A638-484C-95A2-332AE73E927D}.Release|x64.ActiveCfg = Release
+		{93A1026E-A638-484C-95A2-332AE73E927D}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
