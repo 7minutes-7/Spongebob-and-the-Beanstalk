@@ -38,7 +38,7 @@ public:
 	ObjectPtr bucket = Object::create("Images/bucket_empty.png", scene, 823, 267); bool bucket_picked = false;
 	bool bucket_state = false; //처음엔 빈 양동이
 
-	void itemPick(Move m) {
+	void itemPick(Move &m) {
 		beans->setOnMouseCallback([&](ObjectPtr object, int, int, MouseAction)->bool {
 			object->pick();
 			beans_picked = true;
@@ -50,7 +50,7 @@ public:
 			return true;
 			});
 		bucket->setOnMouseCallback([&](ObjectPtr object, int, int, MouseAction)->bool {
-			if (m.place == 2) { if (bucket_state) object->pick(); }
+			if (m.place == 2) { if (this->bucket_state) object->pick(); }
 			else { object->pick(); bucket_picked = true; }
 			return true;
 			});
@@ -69,6 +69,7 @@ private:
 	ObjectPtr sand_planted = Object::create("Images/sand_pile.png", scene, 0, 2, false);
 	ObjectPtr sand_floor = Object::create("Images/front_yard_sand.png", scene, 0, 0);
 	ObjectPtr plant_guide = Object::create("Images/plant_guide.png", scene, 297, 44);
+	ObjectPtr arrow = Object::create("Images/arrow.png", scene, 0, 0,false);
 
 	ObjectPtr hole = Object::create("Images/hole.png", scene, 0, 0, false);
 	ObjectPtr bean = Object::create("Images/bean.png", scene, 0, -3, false);
@@ -114,7 +115,7 @@ public:
 										case Garden::PLANTED: garden_state = Garden::GROW1; break;
 										case Garden::GROW1: garden_state = Garden::GROW2; break;
 										case Garden::GROW2:garden_state = Garden::GROW3; break;
-										case Garden::GROW3: garden_state = Garden::GROW4; break;
+										case Garden::GROW3: garden_state = Garden::GROW4; arrow->locate(scene, clicked + 100, 240); arrow->show(); break;
 										}
 									}
 									plant_timer->setOnTimerCallback([&](TimerPtr t)->bool { //196
