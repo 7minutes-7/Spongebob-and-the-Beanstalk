@@ -88,7 +88,7 @@ public:
 		});
 	}
 	void growBean(ObjectPtr beans,ObjectPtr shovel, ObjectPtr bucket,bool& bucket_state) {
-		sand_floor->setOnMouseCallback([&](ObjectPtr o, int x, int y, MouseAction)->bool {
+		sand_floor->setOnMouseCallback([&,beans,shovel,bucket](ObjectPtr, int x, int , MouseAction)->bool {
 			if (garden_state == Garden::NONE && shovel->isHanded() && x > 350 && x < 1160) {
 				clicked = x;
 				hole->locate(scene, clicked - 50, 5); hole->show();
