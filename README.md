@@ -9,12 +9,12 @@
 
 ## 시작장면:: 집
 ![sponge](https://github.com/7minutes-7/Spongebob-and-the-Beanstalk/blob/master/Images/readme_house.png)<br />
-게임에 필요한 도구를 챙길 수 있으며 벽의 종이를 누르면 게임 방법을 한번 더 확인할 수 있습니다.<br />
+게임에 필요한 도구를 챙길 수 있으며 벽의 종이를 누르면 게임 방법을 한 번 더 확인할 수 있습니다.<br />
 
 ## 콩 키우기
 ![sponge](https://github.com/7minutes-7/Spongebob-and-the-Beanstalk/blob/master/Images/readme_yard.png)<br />
 마당에서는 집에서 챙긴 도구들로 콩을 심을 수 있습니다.<br />
-표지판을 누르면 콩을 심는 방법이 나옵니다.<br />
+안내판을 누르면 콩을 심는 방법이 나옵니다.<br />
 
 ## 우물
 ![sponge](https://github.com/7minutes-7/Spongebob-and-the-Beanstalk/blob/master/Images/readme_well.png)<br />
